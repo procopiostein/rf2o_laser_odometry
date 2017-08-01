@@ -2,8 +2,8 @@
 Changelog for package rf2o_laser_odometry
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+1.1.0 (2017-08-01)
+------------------
 * reduced verbosity
 * added installation rules
 * fixed headers when publishing the TF transforms.
