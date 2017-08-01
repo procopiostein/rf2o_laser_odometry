@@ -745,7 +745,7 @@ void CLaserOdometry2D::solveSystemNonLinear()
 
     cov_odo = (1.f/float(num_valid_range-3))*AtA.inverse()*res.squaredNorm();
     kai_loc_level = Var;
-    std::cout << endl << "COV_ODO: " << cov_odo  << endl;
+    ROS_DEBUG_STREAM(endl << "COV_ODO: " << cov_odo  << endl);
 }
 
 void CLaserOdometry2D::Reset(CPose3D ini_pose, CObservation2DRangeScan scan)
